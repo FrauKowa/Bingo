@@ -1,5 +1,6 @@
-input.onGesture(Gesture.TiltLeft, function () {
+input.onButtonPressed(Button.AB, function () {
     let bingo: number[] = []
+    music.playTone(262, music.beat(BeatFraction.Whole))
     bingo[0] = 1
     bingo[1] = 2
     bingo[2] = 3
